@@ -1,0 +1,86 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: xx-large;
+    padding: 20px;
+  }
+  h3 {
+    padding-bottom: 5px;
+    font-size: medium;
+  }
+  div {
+    font-size: 14px;
+  }
+  /*Css goal*/
+  .goal {
+    display: block;
+    padding: 20px 20px 10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .goals-container {
+    padding-bottom: 20px;
+  }
+
+  .goal:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .goal i {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+  }
+
+  /*Css team*/
+
+  .team {
+    display: block;
+  }
+  .team i {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+  }
+
+  .team-content {
+    padding-left: 40px;
+  }
+
+  /*Css scope*/
+  .scope {
+    display: block;
+  }
+
+  .scope-content h3 {
+    font-size: x-large;
+  }
+  /*Css primary*/
+  .primary-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .iconcontent-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconcontent {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  /*Css timeline*/
+  .timeline {
+    display: block;
+    padding-left: 20px;
+    margin-right: 30px;
+  }
+  .timeline-content {
+    display: block;
+  }
+}

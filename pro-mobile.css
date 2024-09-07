@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: xx-large;
+    padding: 20px 0;
+    border-bottom: 2px solid #848383;
+  }
+  h3 {
+    padding-bottom: 5px;
+  }
+
+  .goal i,
+  .team i {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+  }
+  .goals-container,
+  .teams-container,
+  .timelines-container,
+  .scopes-container,
+  .primary-container {
+    padding: 0 15px 15px 15px;
+  }
+  /*Css goal*/
+  .goal {
+    display: block;
+  }
+
+  .goal:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  /*Css scope*/
+  .scope {
+    display: block;
+    padding: 0;
+    margin: 10px;
+  }
+
+  /*Css team*/
+  .team {
+    display: block;
+    margin: 10px;
+  }
+  /*Css timeline*/
+  .timeline {
+    display: block;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .timeline span {
+    font-size: x-large;
+    width: 50px;
+    height: 50px;
+  }
+  /*Css primary*/
+  .primary-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .iconcontent-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconcontent {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
