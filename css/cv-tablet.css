@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-avatar {
+    display: none;
+  }
+  /*id imfor*/
+  .imfor-content1 {
+    padding: 40px;
+  }
+  /*id skill*/
+  .skill-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* ky nang*/
+  .skill-content6 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  /*hoat dong*/
+  .skill-content3 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  /*Css price*/
+  .price-left,
+  .price-right,
+  .price-down {
+    display: block;
+  }
+  .price-right::after {
+    height: 37%;
+    top: 7.5%;
+  }
+  .price-down::before {
+    width: 84%;
+  }
+  /*Css project*/
+
+  .project-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project-company table {
+    min-height: 500px;
+  }
+}

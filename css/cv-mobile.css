@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  h2 {
+    font-size: large;
+  }
+
+  /*Css nav-bar*/
+  #nav-bar {
+    padding: 0 5%;
+  }
+  .nav-avatar {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*Css imfor*/
+  .imfor-container {
+    display: block;
+  }
+  .imfor-content1 {
+    padding: 5%;
+  }
+  .imfor-content2 {
+    padding: 5%;
+  }
+  /*Css skill*/
+  .skill-container {
+    display: block;
+    padding: 0;
+  }
+  .skill-name i {
+    font-size: 50px;
+  }
+  /*Css price*/
+  #price h2 {
+    padding: 2%;
+    margin-bottom: 0;
+  }
+  .price-container {
+    display: block;
+    padding: 0;
+  }
+  .price-left,
+  .price-right,
+  .price-down {
+    display: block;
+  }
+  .price-left::after,
+  .price-right::after,
+  .price-down::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: orange;
+    left: 4.5%;
+    margin-left: 0;
+  }
+  .price-right {
+    display: block;
+    padding-top: 25px;
+  }
+
+  .price-down {
+    display: block;
+    padding-top: 25px;
+  }
+  .price-down::before {
+    display: none;
+  }
+  /*Css project*/
+  #project h2 {
+    padding: 2%;
+  }
+  .project-container {
+    display: block;
+    padding: 0;
+  }
+  /*Css footer*/
+  .footer-icon a {
+    display: none;
+  }
+}
